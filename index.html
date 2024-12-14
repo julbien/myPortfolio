@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Julbien</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="section" id="home">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Julbien<br /> Maxine Pedimato </span> 
+          </h1>
+          <div class="action__btns">
+            <a href="assets/PEDIMATO - RESUME.pdf" class="resume" target="_blank">Resume</a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/photo.jpg" alt="profile" />
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about__container bd-grid">
+        <div>
+          <div class="about__text-container">
+            <p class="about__text">
+              I am a third-year BSIT student majoring in Network Technology at BSU Lipa. My academic journey has equipped me with a solid foundation in various technical skills, including front-end development using HTML, CSS, and JavaScript, as well as proficiency in design tools like Figma and Adobe XD. <br><br>
+              I have worked on several projects that showcase my ability to create intuitive user interfaces and prototypes, and I thrive in collaborative environments. I am particularly passionate about exploring the latest trends in technology, such as cybersecurity and UX design, and I am eager to apply my knowledge in real-world scenarios. <br><br>
+              My goal is to contribute to innovative projects that challenge my creativity while further developing my technical expertise. I invite you to connect with me to explore potential collaborations or share insights!
+            </p>           
+          </div>
+        </div>                                   
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <h3>Supreme Student Council Announcement Management System <br>(2022)</h3>
+        <p>Developed a console application using C++ for Supreme Student Council Announcements.</p>
+      </div>
+      <div class="project-item">
+        <h3>Learning Management System <br>(2022)</h3>
+        <p>Contributed to the development of a learning management system (LMS) using Java, MySQL, JSON, and JavaScript. Collaborated with a team to design and implement features.</p>
+      </div>
+      <div class="project-item">
+        <h3>Password Generator <br>(2022)</h3>
+        <p>Collaborated with a team in the creation of password generator, participated in coding phases using Python.</p>
+      </div>
+      <div class="project-item">
+        <h3>Word Game <br>(2023)</h3>
+        <p>Developed a Word Game console application using Java.</p>
+      </div>
+      <div class="project-item">
+        <h3>J&J Gifts Galore Web App <br>(2024)</h3>
+        <p>Contributed to the front-end of an e-commerce website using HTML and CSS.</p>
+      </div>
+      <div class="project-item">
+        <h3>JGRIT Dental Care Management System <br>(2024)</h3>
+        <p>Designed and developed the UI/UX for a dental care management system using Figma for prototyping and translating designs into fully functional code.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contacts</h2>
+      <div class="container">
+        <h2>Feel Free to Reach Out!</h2>
+        <p>If you have any inquiries or would like to get in touch, please fill out the form below:</p>
+        <p class="friendly-message">I'm here to help, so don't hesitate to message me!</p>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Please enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Please enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="mobile">Mobile</label>
+            <input type="text" id="mobile" name="mobile" placeholder="Enter mobile" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+          </div>
+          <button class="submit-btn" type="submit">SUBMIT</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
