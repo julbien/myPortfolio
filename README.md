@@ -1,1 +1,1 @@
-# myPortfolio
+This is the README file for my personal portfolio website, designed to showcase my skills, projects, and professional journey. The website serves as an online resume and project showcase, helping visitors and potential employers learn more about my background, expertise, and achievements.
